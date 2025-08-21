@@ -1,3 +1,4 @@
+import CtaSection from "@/components/cta-section";
 import HeroSection from "@/components/hero-secion";
 import Navbar from "@/components/navbar";
 import ServiceSection from "@/components/service-section";
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <ServiceSection />
+      <CtaSection />
     </main>
   );
 }
