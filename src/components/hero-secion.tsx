@@ -1,12 +1,8 @@
-// src/components/HeroSection.jsx
-
 import Image from "next/image";
-import heroIllustration from "@/public/hero-illustration.svg";
 
 export default function HeroSection() {
   return (
     <div className="flex flex-col lg:flex-row justify-center items-center w-full min-h-screen p-8 bg-white text-[#1F1F39]">
-      {/* Kolom Kiri - Konten Teks */}
       <div className="flex-1 flex flex-col justify-center items-center lg:items-start text-center lg:text-left mb-10 lg:mb-0 lg:mr-20">
         <div className="flex items-center space-x-4 mb-4">
           <div className="w-12 h-1 bg-[#1F1F39]"></div>
@@ -27,17 +23,13 @@ export default function HeroSection() {
         </a>
       </div>
 
-      {/* Kolom Kanan - Ilustrasi */}
-      <div className="flex-1 max-w-md lg:max-w-none">
-        {/*
-          ✨ Catatan:
-          Ganti path src pada komponen Image dengan path ke gambar ilustrasi Anda.
-          Pastikan gambar disimpan di direktori `public` atau impor seperti di atas.
-        */}
+      <div className="flex-1 max-w-md lg:max-w-none relative h-[400px] mt-10 lg:mt-0">
+        {" "}
         <Image
-          src="/hero-illustration.svg"
+          src="/illustration.png"
           alt="Illustration of a team working on design and innovation"
-          className="w-full h-auto"
+          fill
+          style={{ objectFit: "contain" }}
         />
       </div>
     </div>
