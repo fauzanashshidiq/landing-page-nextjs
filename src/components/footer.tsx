@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-black text-white">
       {/* Top CTA within footer */}
-      <div className="mx-auto w-full max-w-6xl px-6 py-24">
+      <div className="mx-auto w-full max-w-7xl px-6 py-24">
         <p className="text-sm text-gray-400 mb-6">Let's Collaborate</p>
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-snug max-w-3xl">
           Ready to turn your ideas into exceptional designs?
@@ -24,7 +24,7 @@ export default function Footer() {
       </div>
 
       {/* Main footer content */}
-      <div className="mx-auto w-full max-w-6xl px-6 pb-16 grid grid-cols-1 md:grid-cols-4 gap-12">
+      <div className="mx-auto w-full max-w-7xl px-6 pb-16 grid grid-cols-1 md:grid-cols-4 gap-12">
         <div>
           <div className="flex items-center gap-2 mb-4">
             <span className="inline-flex h-5 w-5 items-center justify-center rounded-sm bg-white text-black">
@@ -126,7 +126,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-gray-800">
-        <div className="mx-auto w-full max-w-6xl px-6 py-6 flex items-center justify-between">
+        <div className="mx-auto w-full max-w-7xl px-6 py-6 flex items-center justify-between">
           <p className="text-xs text-gray-500">
             Copyright © 2032 Creativo®. All rights reserved.
           </p>

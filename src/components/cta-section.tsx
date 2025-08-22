@@ -10,7 +10,7 @@ export default function CtaSection() {
 
   return (
     <section className="bg-white text-[#1F1F39]">
-      <div className="mx-auto w-full max-w-6xl px-6">
+      <div className="mx-auto w-full max-w-7xl px-6">
         <div className="flex flex-col md:flex-row gap-8 p-8 md:p-12">
           <div className="md:w-1/3">
             <p className="text-gray-500 text-sm tracking-wide pt-4.5">

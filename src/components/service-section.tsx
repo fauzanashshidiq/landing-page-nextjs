@@ -8,7 +8,7 @@ import {
 export default function ServiceSection() {
   return (
     <div className="bg-black text-white">
-      <div className="mx-auto w-full max-w-6xl px-6">
+      <div className="mx-auto w-full max-w-7xl px-6">
         <div className="flex flex-col md:flex-row p-8 md:p-12">
           <div className="md:w-1/3 mb-8 md:mb-0 md:pr-12">
             <p className="text-gray-400 text-sm tracking-wide pt-4.5">

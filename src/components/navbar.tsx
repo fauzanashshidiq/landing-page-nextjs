@@ -13,12 +13,12 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 z-50 w-full bg-white shadow-md">
-      <div className="mx-auto w-full max-w-6xl px-6">
+      <div className="mx-auto w-full max-w-7xl px-6">
         <div className="flex justify-between items-center p-4 lg:p-6">
           {/* Brand Name */}
           <div className="flex-shrink-0">
             <a href="#" className="font-bold text-lg text-[#1F1F39]">
-              Brand Name
+              Creativo.
             </a>
           </div>
 

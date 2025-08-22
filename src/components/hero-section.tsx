@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <div className="mx-auto w-full max-w-6xl px-6 min-h-screen bg-white text-[#1F1F39]">
+    <div className="mx-auto w-full max-w-7xl px-6 min-h-screen bg-white text-[#1F1F39]">
       <div className="flex flex-col lg:flex-row justify-center items-center w-full min-h-screen py-8">
         <div className="flex-1 flex flex-col justify-center items-center lg:items-start text-center lg:text-left mb-10 lg:mb-0 lg:mr-20">
           <div className="flex items-center space-x-4 mb-4">
