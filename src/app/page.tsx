@@ -1,5 +1,5 @@
 import CtaSection from "@/components/cta-section";
-import HeroSection from "@/components/hero-secion";
+import HeroSection from "@/components/hero-section";
 import Navbar from "@/components/navbar";
 import ServiceSection from "@/components/service-section";
 import Footer from "@/components/footer";
