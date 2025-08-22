@@ -2,6 +2,7 @@ import CtaSection from "@/components/cta-section";
 import HeroSection from "@/components/hero-secion";
 import Navbar from "@/components/navbar";
 import ServiceSection from "@/components/service-section";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <ServiceSection />
       <CtaSection />
+      <Footer />
     </main>
   );
 }
